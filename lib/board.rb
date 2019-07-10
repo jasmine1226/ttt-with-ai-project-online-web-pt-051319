@@ -7,7 +7,6 @@ class Board
 
   def reset!
     @cells.clear
-    9.times { @cells << "" }
   end
 
   def display
