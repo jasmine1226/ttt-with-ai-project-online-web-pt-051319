@@ -17,7 +17,6 @@ class Board
   end
 
   def full?
-
   end
 
   def turn_count
