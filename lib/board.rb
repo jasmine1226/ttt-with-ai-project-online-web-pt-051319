@@ -1,7 +1,13 @@
 class Board
   attr_accessor :cells
 
+  def initialize
+    self.reset!
+  end
+
   def reset!
+    @cells.clear
+    9.times { @cells << "" }
   end
 
   def display
