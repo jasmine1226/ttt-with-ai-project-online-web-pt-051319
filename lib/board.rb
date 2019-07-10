@@ -14,10 +14,12 @@ class Board
     puts self.cells
   end
 
-  def position
+  def position(input)
+    self.cells[input.to_i-1]
   end
 
   def update
+
   end
 
   def token
