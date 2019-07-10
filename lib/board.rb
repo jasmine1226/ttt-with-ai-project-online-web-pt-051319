@@ -6,11 +6,12 @@ class Board
   end
 
   def reset!
-    @cells.clear
-    9.times { @cells << " " }
+    self.cells.clear
+    9.times { self.cells << " " }
   end
 
   def display
+    puts self.cells
   end
 
   def position
